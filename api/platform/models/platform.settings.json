@@ -21,6 +21,10 @@
       "targetField": "name",
       "required": true,
       "private": false
+    },
+    "games": {
+      "via": "platforms",
+      "collection": "game"
     }
   }
 }
